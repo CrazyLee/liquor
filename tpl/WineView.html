@@ -1,0 +1,99 @@
+<div class="row">
+
+    <form class="form-horizontal span12">
+
+
+        <fieldset>
+
+            <legend>商品详情</legend>
+            <br/>
+
+            <div class="row">
+                <div class="span8">                  
+
+                    <div class="control-group">
+                        <label for="name" class="control-label">品牌:</label>
+
+                        <div class="controls">
+                            <input type="text" id="name" name="name" value="<%= name %>"/>
+                           
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="price" class="control-label">价格:</label>
+
+                        <div class="controls">
+                            <input type="text" id="price" name="price" value="<%= price %>"/>
+                            
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="region" class="control-label">产地:</label>
+
+                        <div class="controls">
+                            <input type="text" id="region" name="region" value="<%= region %>"/>
+                            
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="smell" class="control-label">香型:</label>
+
+                        <div class="controls">
+                            <input type="text" id="smell" name="smell" value="<%= smell %>"/>
+                            
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="material" class="control-label">原料:</label>
+
+                        <div class="controls">
+                            <input type="text" id="material" name="material" value="<%= material %>"/>
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="volume" class="control-label">净含量:</label>
+
+                        <div class="controls">
+                            <input type="text" id="volume" name="volume" value="<%= volume %>" />                                
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="alcohol" class="control-label">酒精度:</label>
+
+                        <div class="controls">
+                            <input type="text" id="alcohol" name="alcohol" value="<%= alcohol %>" />                                
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <label for="description" class="control-label">Notes:</label>
+
+                        <div class="controls">
+                            <textarea id="description" name="description" class="span5" rows="6"><%= description
+                                %></textarea>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="span3">
+                    <div class="well">
+                        <p><img id="picture" width="300" src="<%= 'pics/' + picture %>"/></p>                       
+                    </div>
+                </div>
+
+            </div>
+
+        </fieldset>
+
+        
+
+    </form>
+
+</div>
